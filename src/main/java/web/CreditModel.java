@@ -4,9 +4,10 @@ public class CreditModel {
 	
 	private double taux;
 	private int duree;
-	private double mensualite;
-	
 	private double montant;
+	private double resultat;
+	
+	
 	public CreditModel() {
 		super();
 	}
@@ -37,10 +38,10 @@ public class CreditModel {
 		this.duree = duree;
 	}
 	public double getResultat() {
-		return mensualite;
+		return resultat;
 	}
 	public void setResultat(double resultat) {
-		this.mensualite = mensualite;
+		this.resultat = resultat;
 	}
 	
 }
